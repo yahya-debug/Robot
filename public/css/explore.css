@@ -1,0 +1,7 @@
+header .sets_icon{
+  margin: 15px;
+  cursor: pointer;
+}
+header nav button[name="Explore"] a{
+  color: #3650fb;
+}

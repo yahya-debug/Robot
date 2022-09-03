@@ -1,0 +1,31 @@
+{
+  "name": "shbabpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "computer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yahya-debug/shbabpro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yahya-debug/shbabpro/issues"
+  },
+  "homepage": "https://github.com/yahya-debug/shbabpro#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "electron": "^16.0.5",
+    "nodemon": "^2.0.15"
+  }
+}

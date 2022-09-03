@@ -1,0 +1,31 @@
+*{
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #000000, #150098 100%);
+}
+input{
+  background: transparent;
+  border: 1px solid #6900ff;
+}
+svg{
+  z-index: 2;
+}
+img, button, h1{
+  user-select: none;
+}
+.Arabic_txt{
+  font-family: 'Almarai';
+}
+.df{
+  display: -webkit-flex!important;
+  display: -ms-flex!important;
+  display: flex!important;
+}
+.dn{
+  display: none!important;
+}

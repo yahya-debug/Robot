@@ -1,0 +1,59 @@
+header{
+  display: flex;
+  position: relative;
+}
+header .Logo{
+  flex: .5;
+  column-gap: 10px;
+  display: flex;
+}
+header .Logo #h2A{
+  font-family: 'Righteous';
+  color: white;
+  user-select: none;
+}
+header .right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: .5;
+}
+header nav{
+  display: flex;
+  align-items: center;
+  height: 75px;
+  column-gap: 7px;
+  margin-left: 50px;
+}
+header nav button{
+  border: none;
+  background: none;
+  font-size: 18px;
+  outline: none;
+  padding: 0;
+}
+header nav button a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  column-gap: 5px;
+}
+header .sets_icon{
+  margin: 15px;
+  cursor: pointer;
+}
+header .right .bar{
+  display: none;
+}
+/* media queries */
+@media screen and (max-width: 587px) {
+  header .right *{
+    display: none;
+  }
+  header .right .bar{
+    display: block;
+  }
+}

@@ -1,0 +1,41 @@
+header nav button[name="Robot page"] a{
+  color: #3650fb;
+}
+section.robot{
+  display: flex;
+  margin-top: 15px;
+  padding: 10px;
+}
+section.robot .robot_profile{
+  display: flex;
+  column-gap: 10px;
+  align-items: flex-start;
+}
+section.robot .robot_profile .description{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px;
+  position: relative;
+}
+section.robot .robot_profile .description *{
+  color: #fff;
+  font-size: 18px;
+  padding: 0;
+  margin-bottom: 7px;
+}
+section.robot .robot_profile .description input[name="Robot name"]{
+  border: none;
+  padding-right: 24px;
+}
+.robot .robot_profile .description .edit, .endEdit{
+  margin: 0;
+  padding: 2.5px;
+  position: absolute;
+  right: 4px;
+  opacity: 0;
+}
+/* effects */
+.robot .description:hover > .edit, .endEdit{
+  opacity: 1;
+}
